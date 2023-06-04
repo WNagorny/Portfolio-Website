@@ -16,12 +16,50 @@ function Portfolio() {
 
       <div className="container portfolio__container">
 
-        <PortfolioArticle image ={IMG1} url='https://github.com/WNagorny/EliteFurniture-Website'/>
-        <PortfolioArticle image ={IMG2} url='hhttps://github.com/WNagorny/DriveEasy-website'/>
-        <PortfolioArticle image ={IMG3} url='https://github.com/WNagorny/LampLuxe-website'/>
-        <PortfolioArticle image ={IMG4} url='https://github.com/WNagorny/Forest-Parallax-scrolling'/>
-        <PortfolioArticle image ={IMG5} url='https://github.com/WNagorny/WeatherApp'/>
-        <PortfolioArticle image ={IMG6} url='https://github.com/WNagorny/TodoList'/>
+        <PortfolioArticle 
+        image ={IMG1} 
+        gitUrl='https://github.com/WNagorny/EliteFurniture-Website' 
+        demoUrl ="https://wnagorny.github.io/EliteFurniture-Website/"
+        projectName = "Elite Furniture Website" 
+        />
+
+        <PortfolioArticle 
+        image ={IMG2} 
+        gitUrl='hhttps://github.com/WNagorny/DriveEasy-website' 
+        demoUrl ="https://wnagorny.github.io/DriveEasy-website/"
+        projectName = "Drive Easy Website" 
+        />
+
+        <PortfolioArticle 
+        image ={IMG3} 
+        gitUrl='https://github.com/WNagorny/LampLuxe-website' 
+        demoUrl ="https://wnagorny.github.io/LampLuxe-website/"
+        projectName = "Lump Lux Website" 
+
+        />
+
+        <PortfolioArticle 
+        image ={IMG4} 
+        gitUrl='https://github.com/WNagorny/Forest-Parallax-scrolling' 
+        demoUrl ="https://wnagorny.github.io/Forest-Parallax-scrolling/"
+        projectName = "Forest-Parallax-scrolling" 
+
+        />
+
+        <PortfolioArticle 
+        image ={IMG5} 
+        gitUrl='https://github.com/WNagorny/WeatherApp'
+        demoUrl ="https://wnagorny.github.io/WeatherApp/"
+        projectName = "WeatherApp" 
+
+         />
+
+        <PortfolioArticle 
+        image ={IMG6} 
+        gitUrl='https://github.com/WNagorny/TodoList' 
+        demoUrl ="https://wnagorny.github.io/TodoList/"
+        projectName = "To do list" 
+        />
 
       </div>
     </section>
